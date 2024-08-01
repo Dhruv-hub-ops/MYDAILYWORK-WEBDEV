@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  main {
+    padding: 1rem;
+  }
+
+  section {
+    margin-bottom: 1rem;
+  }
+}
